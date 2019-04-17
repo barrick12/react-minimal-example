@@ -29,11 +29,10 @@ ReactDOM.render(<App/>, document.getElementById('root'));
 //         <TodoList items={this.state.items} />
 //
 // 		<form onSubmit={this.handleSubmit}>
-//           <label htmlFor="new-todo">
+//           <label>
 //             What needs to be done?<br/>
 //           </label>
 //           <input
-//             id="new-todo"
 //             onChange={this.handleChange}
 //             value={this.state.text}
 //           />
